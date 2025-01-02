@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple-port-scanner"
+version = "0.1.0"
+description = "A simple port scanning project"
+authors = ["Rob Marshall <rob@robmarshall.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.67.1"
+tabulate = "^0.9.0"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
